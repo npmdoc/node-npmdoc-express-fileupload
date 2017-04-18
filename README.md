@@ -1,9 +1,14 @@
-# api documentation for  [express-fileupload (v0.1.2)](https://github.com/richardgirges/express-fileupload#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-fileupload.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-fileupload) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-fileupload.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-fileupload)
+# npmdoc-express-fileupload
+
+#### api documentation for  [express-fileupload (v0.1.2)](https://github.com/richardgirges/express-fileupload#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-fileupload.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-fileupload) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-fileupload.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-fileupload)
+
 #### Simple express file upload middleware that wraps around Busboy
 
-[![NPM](https://nodei.co/npm/express-fileupload.png?downloads=true)](https://www.npmjs.com/package/express-fileupload)
+[![NPM](https://nodei.co/npm/express-fileupload.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-fileupload)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-express-fileupload_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-express-fileupload/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-express-fileupload/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Richard Girges",
-        "email": "richardgirges@gmail.com"
+        "name": "Richard Girges"
     },
     "bugs": {
         "url": "https://github.com/richardgirges/express-fileupload/issues"
@@ -63,13 +67,11 @@
     "main": "./lib/index",
     "maintainers": [
         {
-            "name": "richardgirges",
-            "email": "richardgirges@gmail.com"
+            "name": "richardgirges"
         }
     ],
     "name": "express-fileupload",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/richardgirges/express-fileupload.git"
@@ -82,16 +84,6 @@
     "version": "0.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module express-fileupload](#apidoc.module.express-fileupload)
-
-
-
-# <a name="apidoc.module.express-fileupload"></a>[module express-fileupload](#apidoc.module.express-fileupload)
 
 
 
