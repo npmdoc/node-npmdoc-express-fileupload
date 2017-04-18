@@ -54,12 +54,43 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.express-fileupload">module express-fileupload</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.express-fileupload.express-fileupload">
+            function <span class="apidocSignatureSpan"></span>express-fileupload
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.express-fileupload" id="apidoc.module.express-fileupload">module express-fileupload</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.express-fileupload.express-fileupload" id="apidoc.element.express-fileupload.express-fileupload">
+        function <span class="apidocSignatureSpan"></span>express-fileupload
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">express-fileupload = function (options) {
+  options = options || {};
+
+  return function(req, res, next) {
+    if (!hasBody(req) || !hasAcceptableMethod(req) || !hasAcceptableMime(req))
+        return next();
+
+    processMultipart(options, req, res, next);
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
